@@ -54,7 +54,7 @@ Not enabling this preference stops your Compute Fleet from goal seeking to repla
 
 ### Spot Fleet allocation strategies 
 
-**Price capacity optimized (recommended):** The Compute Fleet launches qualifying VMs from your selected list of VM types and sizes to fullfil the target capacity. It prioritizes the highest available Spot capacity at the lowest price on Spot VMs in the region. 
+**Price capacity optimized (recommended):** The Compute Fleet launches qualifying VMs from your selected list of VM types and sizes to fulfill the target capacity. It prioritizes the highest available Spot capacity at the lowest price on Spot VMs in the region. 
 
 If you select multiple VMs that happen to offer the ideal capacity to meet your target, then Compute Fleet prioritizes deploying VMs that offer the lowest price first. Followed by the second and third lowest price if sufficient capacity isn't available with the first lowest price VMs. Compute Fleet considers both price and capacity while configuring this strategy.
 
